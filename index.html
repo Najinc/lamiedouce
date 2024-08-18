@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="./css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+        <title>TEST</title>
+    </head>
+    <body class="h-full min-h-screen leading-normal">
+        <div class="min-h-full">
+            <nav class="bg-[#461F4B]">
+                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                    <div class="flex h-16 items-center justify-between">
+                        <div class="w-full flex items-center">
+                            <div class="flex-shrink-0">
+                                <img class="h-11" src="img/logo.png" alt="La Mie Douce">
+                            </div>
+                            <div class="w-full hidden md:block">
+                                <div class="flex justify-end items-baseline space-x-4">
+                                    <a href="/" class="rounded-md bg-[#341738] hover:bg-[#602d66] px-3 py-2 font-lexend uppercase text-xs font-medium text-white" aria-current="page">Accueil</a>
+                                    <a href="#" class="rounded-md px-2 py-2 font-lexend uppercase text-xs font-medium text-gray-300 hover:bg-[#602d66] hover:text-white">La boulangerie</a>
+                                    <a href="#" class="rounded-md px-2 py-2 font-lexend uppercase text-xs font-medium text-gray-300 hover:bg-[#602d66] hover:text-white">Nos produits</a>
+                                    <a href="#" class="rounded-md px-2 py-2 font-lexend uppercase text-xs font-medium text-gray-300 hover:bg-[#602d66] hover:text-white">Nos services</a>
+                                    <a href="#" class="rounded-md px-2 py-2 font-lexend uppercase text-xs font-medium text-gray-300 hover:bg-[#602d66] hover:text-white">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="-mr-2 flex md:hidden">
+                            <!-- Mobile menu button -->
+                            <button type="button" class="relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" aria-controls="mobile-menu" aria-expanded="false">
+                                <span class="absolute -inset-0.5"></span>
+                                <span class="sr-only">Open main menu</span>
+                                <!-- Menu open: "hidden", Menu closed: "block" -->
+                                <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                </svg>
+                                <!-- Menu open: "block", Menu closed: "hidden" -->
+                                <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile menu, show/hide based on menu state. -->
+                <div class="md:hidden" id="mobile-menu">
+                    <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
+                        <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Accueil</a>
+                        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">La boulangerie</a>
+                        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Nos produits</a>
+                        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Nos services</a>
+                        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
+                    </div>
+                </div>
+            </nav>
+
+            <main>
+                <div class="bg-white">
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex p-8">
+                        <div class="w-1/2 pr-20 flex flex-col justify-center items-start">
+                            <p class="text-[#461F4B] font-semibold font-lexend text-4xl">Découvrez nos produits artisanaux faits avec <span class="font-lora italic">amour</span> et <span class="font-lora italic">passion</span>.</p>
+                            <p class="text-gray-400 text-base mt-5">Depuis plusieurs années, <span class="font-lora italic">La Mie Douce</span> est votre boulangerie de quartier, où chaque pain, chaque viennoiserie, est préparé avec soin, en utilisant les meilleurs ingrédients et des méthodes traditionnelles. Nos artisans boulangers mettent tout leur savoir-faire au service de nos clients.</p>
+                        </div>
+                        <div class="w-1/2">
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="grid gap-4 h-full">
+                                    <div class="h-80">
+                                        <img class="w-full h-full object-cover rounded-lg touch-manipulation transition-all duration-200 hover:scale-[1.020]" src="img/vitrine1.jpg" alt="">
+                                    </div>
+                                    <div class="h-60">
+                                        <img class="w-full h-full object-cover rounded-lg touch-manipulation transition-all duration-200 hover:scale-[1.020]" src="img/vitrine2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="grid gap-4 h-full">
+                                    <div class="h-60">
+                                        <img class="w-full h-full object-cover rounded-lg touch-manipulation transition-all duration-200 hover:scale-[1.020]" src="img/vitrine3.jpg" alt="">
+                                    </div>
+                                    <div class="h-80">
+                                        <img class="w-full h-full object-cover rounded-lg touch-manipulation transition-all duration-200 hover:scale-[1.020]" src="img/vitrine4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex p-8">
+                        <div class="flex flex-col mt-6 mb-6">
+                            <div class="mx-auto max-w-lg text-center">
+                                <h2 class="text-[#461F4B] font-semibold font-lexend text-4xl">Le goût du vrai pain, fait avec passion chaque jour.</h2>
+                                <p class="text-gray-400 text-base mt-4">Chez <span class="font-lora italic">La Mie Douce</span>, nous allions tradition et innovation pour vous offrir des produits d'exception, toujours frais et savoureux.</p>
+                            </div>
+                            <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                                <div class="block rounded-xl shadow-xl border border-white hover:border-[#461F4B] touch-manipulation transition-all duration-200 p-8">
+                                    <i class="bx bx-medal text-5xl text-[#461F4B]"></i>
+                                    <h2 class="mt-3 font-lexend text-xl font-bold text-black">Qualité Inégalée</h2>
+                                    <p class="mt-1 font-lexend font-light text-sm text-gray-400">Chaque pain, viennoiserie et pâtisserie est fabriqué avec des ingrédients soigneusement sélectionnés et un savoir-faire artisanal transmis de génération en génération.</p>
+                                </div>
+                                <div class="block rounded-xl shadow-xl border border-white hover:border-[#461F4B] touch-manipulation transition-all duration-200 p-8">
+                                    <i class="bx bx-money text-5xl text-[#461F4B]"></i>
+                                    <h2 class="mt-3 font-lexend text-xl font-bold text-black">Prix Justes</h2>
+                                    <p class="mt-1 font-lexend font-light text-sm text-gray-400">Nous croyons que la qualité doit être accessible à tous. C’est pourquoi nous vous proposons des produits délicieux à des prix qui respectent votre budget.</p>
+                                </div>
+                                <div class="block rounded-xl shadow-xl border border-white hover:border-[#461F4B] touch-manipulation transition-all duration-200 p-8">
+                                    <i class="bx bx-trophy text-5xl text-[#461F4B]"></i>
+                                    <h2 class="mt-3 font-lexend text-xl font-bold text-black">Authenticité Garantie</h2>
+                                    <p class="mt-1 font-lexend font-light text-sm text-gray-400">Nous restons fidèles aux méthodes traditionnelles pour préserver le goût authentique de chaque produit, en vous offrant une expérience culinaire unique.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex p-12">
+                        <div class="w-full flex mr-5">
+                            <div class="w-1/2 h-80 mb-8">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.590538582554!2d4.0117823999999995!3d49.227292000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e9755cc593268f%3A0x46fa82980840c27f!2sBoulangerie%20La%20Mie%20Douce!5e0!3m2!1sfr!2sfr!4v1723909820783!5m2!1sfr!2sfr"
+                                        style="border: 0;"
+                                        class="w-full h-full"
+                                        allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                                <p class="font-lora text-sm text-gray-400 mt-2">Nous sommes situés au cœur du quartier, avec un parking disponible à 50 mètres pour un accès facile et rapide à notre boulangerie.</p>
+                            </div>
+                            <div class="w-1/2 h-80 pl-6 flex">
+                                <div class="w-1/2 m-5 flex flex-col justify-center items-center">
+                                    <p class="font-lexend font-semibold uppercase mb-2">Horaires</p>
+                                    <p class="font-lexend font-light">
+                                        <span class="font-lora italic font-medium text-[#461F4B]">Lundi</span>
+                                        de 07:00 à 19:00
+                                    </p>
+                                    <p class="font-lexend font-light">
+                                        <span class="font-lora italic font-medium text-[#461F4B]">Mardi</span>
+                                        de 07:00 à 19:00
+                                    </p>
+                                    <p class="font-lexend font-light">
+                                        <span class="font-lora italic font-medium text-[#461F4B]">Mercredi</span>
+                                        de 07:00 à 19:00
+                                    </p>
+                                    <p class="font-lexend font-light">
+                                        <span class="font-lora italic font-medium text-[#461F4B]">Jeudi</span>
+                                        de 07:00 à 19:00
+                                    </p>
+                                    <p class="font-lexend font-light">
+                                        <span class="font-lora italic font-medium text-[#461F4B]">Vendredi</span>
+                                        de 07:00 à 19:00
+                                    </p>
+                                    <p class="font-lexend font-light">
+                                        <span class="font-lora italic font-medium text-[#461F4B]">Samedi</span>
+                                        de 07:30 à 13:30
+                                    </p>
+                                    <p class="font-lexend font-light">
+                                        <span class="font-lora italic font-medium text-[#461F4B]">Dimanche</span>
+                                        de 07:30 à 13:30
+                                    </p>
+                                </div>
+                                <div class="w-1/2 flex flex-col justify-evenly m-5">
+                                    <div class="h-1/2 flex flex-col justify-center items-center">
+                                        <p class="font-lexend font-semibold uppercase mb-2">Adresse</p>
+                                        <p class="font-lora italic font-medium text-[#461F4B]">2 avenue Léon Blum</p>
+                                        <p class="font-lora italic font-medium text-[#461F4B]">51100 Reims</p>
+                                    </div>
+                                    <div class="h-1/2 flex flex-col justify-center items-center">
+                                        <p class="font-lexend font-semibold uppercase mb-2">Numéro de téléphone</p>
+                                        <p class="font-lora italic font-medium text-[#461F4B]">03 26 06 42 82</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <footer class="bg-[#461F4B]">
+                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 p-8">
+                    <div class="md:flex md:justify-between">
+                        <div class="flex flex-col justify-center">
+                            <a href="/" class="flex items-center">
+                                <img src="img/logo.png" class="h-12 me-3" alt="La Mie Douce" />
+                            </a>
+                            <p class="text-gray-300 font-lora mt-3">Chaque jour, le plaisir du </p>
+                            <p class="text-gray-300 font-lora">fait maison à votre table.</p>
+                        </div>
+                        <div class="grid gap-8 grid-cols-2">
+                            <div>
+                                <h2 class="mb-6 text-sm font-lexend font-semibold text-white uppercase">Pages de Contenu</h2>
+                                <ul class="text-sm text-gray-300 font-light font-lexend">
+                                    <li class="mb-4">
+                                        <a href="/" class="hover:underline">La boulangerie</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="hover:underline">Nos produits</a>
+                                    </li>
+                                    <li class="mt-4">
+                                        <a href="/" class="hover:underline">Nos services</a>
+                                    </li>
+                                    <li class="mt-4">
+                                        <a href="/" class="hover:underline">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2 class="mb-6 text-sm font-lexend font-semibold text-white uppercase">Pages légales</h2>
+                                <ul class="text-sm text-gray-300 font-light font-lexend">
+                                    <li class="mb-4">
+                                        <a href="/" class="hover:underline">Mentions légales</a>
+                                    </li>
+                                    <li>
+                                        <a href="/" class="hover:underline">Politique de Confidentialité</a>
+                                    </li>
+                                    <li class="mt-4">
+                                        <a href="/" class="hover:underline">Conditions Générales d'Utilisation</a>
+                                    </li>
+                                    <li class="mt-4">
+                                        <a href="/" class="hover:underline">Politique de Cookies</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                    <div class="sm:flex sm:items-center sm:justify-between">
+                        <span class="text-sm text-gray-300 font-lora font-semibold sm:text-center">&copy; 2024 La Mie Douce. Tous droits réservés.</span>
+                        <div class="flex mt-4 sm:justify-center sm:mt-0">
+                            <a href="/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                                    <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                                </svg>
+                                <span class="sr-only">Facebook page</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <div class="bg-white">
+            <div data-dial-init class="fixed bottom-6 end-24 group">
+                <button type="button" data-dial-toggle="speed-dial-menu-text-inside-button" aria-controls="speed-dial-menu-text-inside-button" aria-expanded="false" class="flex items-center justify-center text-white bg-blue-700 rounded-full w-14 h-14 hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:focus:ring-blue-800">
+                    <svg class="w-5 h-5 transition-transform group-hover:rotate-45" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+                    </svg>
+                    <span class="sr-only">Darkmode</span>
+                </button>
+            </div>
+            <div data-dial-init class="fixed end-6 bottom-6 group">
+                <button type="button" data-dial-toggle="speed-dial-menu-text-inside-button-square" aria-controls="speed-dial-menu-text-inside-button-square" aria-expanded="false" class="flex items-center justify-center text-white bg-blue-700 rounded-lg w-14 h-14 hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:focus:ring-blue-800">
+                    <svg class="w-5 h-5 transition-transform group-hover:rotate-45" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 1v16M1 9h16"/>
+                    </svg>
+                    <span class="sr-only">Revenir en haut</span>
+                </button>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
