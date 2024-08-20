@@ -4,6 +4,7 @@ module.exports = {
     "./index.html",
     "./js/**/*.js",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -11,6 +12,7 @@ module.exports = {
         lora: ['Lora', 'sans-serif'],
       },
       colors: {
+        'dark-gray': '#23272A',
         'dark-purple': '#341738',
         'middle-purple': '#461F4B',
         'light-purple': '#602d66',

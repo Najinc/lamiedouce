@@ -12,7 +12,7 @@
 
         <title>La Mie Douce</title>
     </head>
-    <body class="h-full min-h-screen scroll-smooth">
+    <body class="h-full min-h-screen scroll-smooth dark:bg-dark-gray">
         <div class="min-h-full">
             <nav class="bg-middle-purple">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -62,13 +62,13 @@
             </nav>
 
             <main>
-                <div class="bg-white">
+                <div class="bg-white dark:bg-dark-gray">
                     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex sm:flex-row flex-col p-8 mt-10">
-                        <div class="sm:w-1/2 w-full sm:pr-20 pr-14 sm:pl-0 pl-14 flex flex-col justify-center items-start">
-                            <p class="text-middle-purple font-semibold font-lexend lg:text-4xl md:text-3xl text-2xl">Découvrez nos produits artisanaux faits avec <span class="font-lora italic">amour</span> et <span class="font-lora italic">passion</span>.</p>
+                        <div class="sm:w-1/2 w-full sm:pr-20 lsm:pr-14 pr-0 sm:pl-0 lsm:pl-14 pl-0 flex flex-col justify-center items-start">
+                            <p class="text-middle-purple dark:text-light-purple font-semibold font-lexend lg:text-4xl md:text-3xl text-2xl">Découvrez nos produits artisanaux faits avec <span class="font-lora italic">amour</span> et <span class="font-lora italic">passion</span>.</p>
                             <p class="text-gray-400 lg:text-base md:text-sm text-xs mt-5 sm:mb-0 mb-8">Depuis plusieurs années, <span class="font-lora italic">La Mie Douce</span> est votre boulangerie de quartier, où chaque pain, chaque viennoiserie, est préparé avec soin, en utilisant les meilleurs ingrédients et des méthodes traditionnelles. Nos artisans boulangers mettent tout leur savoir-faire au service de nos clients.</p>
                         </div>
-                        <div class="sm:w-1/2 w-full sm:pr-0 pr-14 sm:pl-0 pl-14">
+                        <div class="sm:w-1/2 w-full sm:pr-0 lsm:pr-14 pr-0 sm:pl-0 lsm:pl-14 pl-0">
                             <div class="grid grid-cols-2 gap-4">
                                 <div class="grid gap-4 h-full">
                                     <div class="md:h-80 lsm:h-60 h-40">
@@ -118,7 +118,7 @@
                     </div>
                 </div>
                 <div class="bg-white">
-                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex p-12 mb-10">
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex p-12 lg:mb-10 mb-0">
                         <div class="w-full flex flex-col lg:flex-row">
                             <div class="w-1/2 h-80 lg:w-1/2 w-full">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.590538582554!2d4.0117823999999995!3d49.227292000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e9755cc593268f%3A0x46fa82980840c27f!2sBoulangerie%20La%20Mie%20Douce!5e0!3m2!1sfr!2sfr!4v1723909820783!5m2!1sfr!2sfr"
@@ -129,7 +129,7 @@
                                 </iframe>
                                 <p class="font-lora md:text-sm text-xs text-gray-400 mt-2">Nous sommes situés au cœur du quartier, avec un parking disponible à 50 mètres pour un accès facile et rapide à notre boulangerie.</p>
                             </div>
-                            <div class="w-1/2 h-80 pl-6 flex lg:w-1/2 w-full lsm:mt-0 msm:mt-20 mt-24">
+                            <div class="w-1/2 h-80 lg:pl-6 pl-0 flex lg:w-1/2 w-full lsm:mt-0 msm:mt-20 mt-24">
                                 <div class="w-1/2 m-5 flex flex-col justify-center items-center">
                                     <p class="font-lexend font-semibold uppercase md:text-base lsm:text-sm text-xs mb-2">Horaires</p>
                                     <p class="font-lexend font-light xl:text-base md:text-sm lsm:text-xs text-xxs text-center">
@@ -238,7 +238,15 @@
             </footer>
         </div>
 
-
+        <div class="fixed bottom-6 end-6 p-2 bg-light-purple rounded-full flex gap-2">
+            <button onclick="toggleDarkMode()" type="button" class="lg:w-12 lg:h-12 md:w-10 md:h-10 w-8 h-8 flex items-center justify-center text-white bg-dark-purple hover:bg-middle-purple rounded-full">
+                <i class="bx bxs-moon lg:text-3xl md:text-2xl text-xl force-hidden"></i>
+                <i class="bx bxs-sun lg:text-3xl md:text-2xl text-xl"></i>
+            </button>
+            <a href="#" type="button" class="lg:w-12 lg:h-12 md:w-10 md:h-10 w-8 h-8 flex items-center justify-center text-white bg-dark-purple hover:bg-middle-purple rounded-full">
+                <i class="bx bx-chevron-up lg:text-3xl md:text-2xl text-xl"></i>
+            </a>
+        </div>
 
         <script src="js/main.js"></script>
     </body>
