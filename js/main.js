@@ -10,7 +10,7 @@ burgerButton.addEventListener('click', () => {
 });
 
 // Dark mode
-const toggleDarkMode = () => {
+const toggleDarkMode = () => {  
     document.documentElement.classList.toggle('dark');
 
     document.querySelector('.bxs-moon').classList.toggle('force-hidden');
