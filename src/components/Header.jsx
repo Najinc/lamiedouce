@@ -29,7 +29,7 @@ export default function Header() {
                                     La boulangerie
                                 </a>
                                 <a
-                                    href="/"
+                                    href="/nos-produits"
                                     className="rounded-md px-2 py-2 font-lexend uppercase text-xs font-medium text-gray-300 hover:bg-light-purple hover:text-white"
                                 >
                                     Nos produits
