@@ -9,7 +9,7 @@ export default function Header() {
                         <div className="flex-shrink-0">
                             <img
                                 className="h-11"
-                                src="./assets/img/logo.png"
+                                src="/assets/img/logo.png"
                                 alt="La Mie Douce"
                             />
                         </div>

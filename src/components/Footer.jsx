@@ -8,7 +8,7 @@ export default function Footer() {
                     <div className="flex flex-col justify-center">
                         <a href="/" className="flex items-center">
                             <img
-                                src="./assets/img/logo.png"
+                                src="/assets/img/logo.png"
                                 className="h-12 me-3"
                                 alt="La Mie Douce"
                             />

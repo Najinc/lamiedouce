@@ -29,14 +29,14 @@ export default function Home() {
                                 <div className="md:h-80 lsm:h-60 h-40">
                                     <img
                                         className="w-full h-full object-cover rounded-lg touch-manipulation transition-all duration-200 hover:scale-[1.020]"
-                                        src="./assets/img/vitrine1.jpg"
+                                        src="/assets/img/vitrine1.jpg"
                                         alt="Première vitrine"
                                     />
                                 </div>
                                 <div className="md:h-60 lsm:h-40 h-20">
                                     <img
                                         className="w-full h-full object-cover rounded-lg touch-manipulation transition-all duration-200 hover:scale-[1.020]"
-                                        src="./assets/img/vitrine2.jpg"
+                                        src="/assets/img/vitrine2.jpg"
                                         alt="Deuxième vitrine"
                                     />
                                 </div>
@@ -45,14 +45,14 @@ export default function Home() {
                                 <div className="md:h-60 lsm:h-40 h-20">
                                     <img
                                         className="w-full h-full object-cover rounded-lg touch-manipulation transition-all duration-200 hover:scale-[1.020]"
-                                        src="./assets/img/vitrine3.jpg"
+                                        src="/assets/img/vitrine3.jpg"
                                         alt="Troisième vitrine"
                                     />
                                 </div>
                                 <div className="md:h-80 lsm:h-60 h-40">
                                     <img
                                         className="w-full h-full object-cover rounded-lg touch-manipulation transition-all duration-200 hover:scale-[1.020]"
-                                        src="./assets/img/vitrine4.jpg"
+                                        src="/assets/img/vitrine4.jpg"
                                         alt="Quatrième vitrine"
                                     />
                                 </div>
