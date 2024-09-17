@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function NotFoundView() {
+export default function NotFound() {
     return (
         <div className="grid h-screen place-content-center bg-white px-4 py-28">
             <div className="text-center">
