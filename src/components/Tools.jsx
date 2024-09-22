@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Tools() {
     return (
-        <div className="fixed bottom-6 end-6 p-1 bg-light-purple rounded-full flex gap-2">
+        <div className="fixed bottom-6 end-6 p-1 bg-light-purple rounded-full flex gap-2 overflow-hidden z-50">
             <a
                 href="#top"
                 aria-label="top"
