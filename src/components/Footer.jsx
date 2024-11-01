@@ -56,13 +56,12 @@ export default function Footer() {
                                 Pages légales
                             </h2>
                             <ul className="text-sm text-gray-300 font-light font-lexend">
-                                <li className="xl:text-base md:text-sm text-xs mb-4">
-                                    <a href="/" className="hover:underline">
-                                        Mentions légales
-                                    </a>
-                                </li>
-                                <li className="xl:text-base md:text-sm text-xs mt-4">
-                                    <a href="/" className="hover:underline">
+                                <li className="xl:text-base md:text-sm text-xs">
+                                    <a
+                                        href="/assets/files/CLMD_CGU.pdf"
+                                        target="_blank"
+                                        className="hover:underline"
+                                    >
                                         Conditions Générales d&apos;Utilisation
                                     </a>
                                 </li>
