@@ -16,10 +16,10 @@ export default function Home() {
                             <span className="font-lora italic">
                                 La Mie Douce
                             </span>{" "}
-                            est votre boulangerie de quartier, où chaque pain,{" "}
-                            chaque viennoiserie, est préparé avec soin, en{" "}
-                            utilisant les meilleurs ingrédients et des méthodes{" "}
-                            traditionnelles. Nos artisans boulangers mettent{" "}
+                            est votre boulangerie de quartier, où chaque pain,
+                            chaque viennoiserie, est préparé avec soin, en
+                            utilisant les meilleurs ingrédients et
+                            traditionnelles. Nos artisans boulangers mettent
                             tout leur savoir-faire au service de nos clients.
                         </p>
                     </div>
@@ -66,7 +66,7 @@ export default function Home() {
                     <div className="flex flex-col mt-6 mb-6">
                         <div className="mx-auto max-w-lg text-center">
                             <h2 className="text-middle-purple dark:text-light-purple font-semibold font-lexend lg:text-4xl md:text-3xl text-2xl">
-                                Le goût du vrai pain, fait avec passion chaque{" "}
+                                Le goût du vrai pain, fait avec passion chaque
                                 jour.
                             </h2>
                             <p className="text-gray-400 lg:text-base md:text-sm text-xs mt-4">
@@ -75,7 +75,7 @@ export default function Home() {
                                     La Mie Douce
                                 </span>
                                 , nous allions tradition et innovation pour vous
-                                pour vous offrir des produits d&apos;exception,{" "}
+                                pour vous offrir des produits d&apos;exception,
                                 toujours frais et savoureux.
                             </p>
                         </div>
@@ -86,9 +86,9 @@ export default function Home() {
                                     Qualité Inégalée
                                 </h2>
                                 <p className="mt-1 font-lexend font-light lg:text-sm md:text-xs text-xxs text-gray-400">
-                                    Chaque pain, viennoiserie et pâtisserie est{" "}
-                                    fabriqué avec des ingrédients soigneusement{" "}
-                                    sélectionnés et un savoir-faire artisanal{" "}
+                                    Chaque pain, viennoiserie et pâtisserie est
+                                    fabriqué avec des ingrédients soigneusement
+                                    sélectionnés et un savoir-faire artisanal
                                     transmis de génération en génération.
                                 </p>
                             </div>
@@ -98,9 +98,9 @@ export default function Home() {
                                     Prix Justes
                                 </h2>
                                 <p className="mt-1 font-lexend font-light lg:text-sm md:text-xs text-xxs text-gray-400">
-                                    Nous croyons que la qualité doit être{" "}
-                                    accessible à tous. C’est pourquoi nous vous{" "}
-                                    proposons des produits délicieux à des prix{" "}
+                                    Nous croyons que la qualité doit être
+                                    accessible à tous. C’est pourquoi nous vous
+                                    proposons des produits délicieux à des prix
                                     qui respectent votre budget.
                                 </p>
                             </div>
@@ -110,8 +110,8 @@ export default function Home() {
                                     Authenticité Garantie
                                 </h2>
                                 <p className="mt-1 font-lexend font-light lg:text-sm md:text-xs text-xxs text-gray-400">
-                                    Nous restons fidèles aux méthodes{" "}
-                                    traditionnelles pour préserver le goût{" "}
+                                    Nous restons fidèles aux méthodes
+                                    traditionnelles pour préserver le goût
                                     authentique de chaque produit, en vous{" "}
                                     offrant une expérience culinaire unique.
                                 </p>
@@ -134,8 +134,8 @@ export default function Home() {
                                 referrerPolicy="no-referrer-when-downgrade"
                             />
                             <p className="font-lora md:text-sm text-xs text-gray-400 mt-2">
-                                Nous sommes situés au cœur du quartier, avec un{" "}
-                                parking disponible à 50 mètres pour un accès{" "}
+                                Nous sommes situés au cœur du quartier, avec un
+                                parking disponible à 50 mètres pour un accès
                                 facile et rapide à notre boulangerie.
                             </p>
                         </div>
