@@ -40,12 +40,6 @@ export default function Header() {
                                 >
                                     Nos services
                                 </a>
-                                <a
-                                    href="/"
-                                    className="rounded-md px-2 py-2 font-lexend uppercase text-xs font-medium text-gray-300 hover:bg-light-purple hover:text-white"
-                                >
-                                    Contact
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -119,12 +113,6 @@ export default function Header() {
                         className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-light-purple hover:text-white"
                     >
                         Nos services
-                    </a>
-                    <a
-                        href="/"
-                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-light-purple hover:text-white"
-                    >
-                        Contact
                     </a>
                 </div>
             </div>

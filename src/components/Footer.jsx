@@ -44,11 +44,6 @@ export default function Footer() {
                                         Nos services
                                     </a>
                                 </li>
-                                <li className="xl:text-base md:text-sm text-xs mt-4">
-                                    <a href="/" className="hover:underline">
-                                        Contact
-                                    </a>
-                                </li>
                             </ul>
                         </div>
                         <div>
