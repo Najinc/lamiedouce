@@ -16,11 +16,12 @@ export default function Home() {
                             <span className="font-lora italic">
                                 La Mie Douce
                             </span>{" "}
-                            est votre boulangerie de quartier, où chaque pain,
-                            chaque viennoiserie, est préparé avec soin, en
-                            utilisant les meilleurs ingrédients et
-                            traditionnelles. Nos artisans boulangers mettent
-                            tout leur savoir-faire au service de nos clients.
+                            est votre est votre est votre est votre boulangerie
+                            de quartier, où chaque pain, chaque viennoiserie,
+                            est préparé avec soin, en utilisant les meilleurs
+                            ingrédients et traditionnelles. Nos artisans
+                            boulangers mettent tout leur savoir-faire au service
+                            de nos clients.
                         </p>
                     </div>
                     <div className="sm:w-1/2 w-full sm:pr-0 lsm:pr-14 pr-0 sm:pl-0 lsm:pl-14 pl-0">
@@ -61,7 +62,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="bg-white dark:bg-dark-gray">
+            <div className="bg-white dark:bg-dark-gray mt-10 mb-10">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex p-8">
                     <div className="flex flex-col mt-6 mb-6">
                         <div className="mx-auto max-w-lg text-center">
@@ -112,7 +113,7 @@ export default function Home() {
                                 <p className="mt-1 font-lexend font-light lg:text-sm md:text-xs text-xxs text-gray-400">
                                     Nous restons fidèles aux méthodes
                                     traditionnelles pour préserver le goût
-                                    authentique de chaque produit, en vous{" "}
+                                    authentique de chaque produit, en vous
                                     offrant une expérience culinaire unique.
                                 </p>
                             </div>
@@ -120,7 +121,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="bg-white dark:bg-dark-gray">
+            <div className="bg-white dark:bg-dark-gray mb-20">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex p-12 lg:mb-10 mb-0">
                     <div className="w-full flex flex-col lg:flex-row">
                         <div className="w-1/2 h-80 lg:w-1/2 w-full">
