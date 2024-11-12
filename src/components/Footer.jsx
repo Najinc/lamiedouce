@@ -27,7 +27,10 @@ export default function Footer() {
                             </h2>
                             <ul className="text-sm text-gray-300 font-light font-lexend">
                                 <li className="xl:text-base md:text-sm text-xs mb-4">
-                                    <a href="/" className="hover:underline">
+                                    <a
+                                        href="/la-boulangerie"
+                                        className="hover:underline"
+                                    >
                                         La boulangerie
                                     </a>
                                 </li>
@@ -40,7 +43,10 @@ export default function Footer() {
                                     </a>
                                 </li>
                                 <li className="xl:text-base md:text-sm text-xs mt-4">
-                                    <a href="/" className="hover:underline">
+                                    <a
+                                        href="/nos-services"
+                                        className="hover:underline"
+                                    >
                                         Nos services
                                     </a>
                                 </li>

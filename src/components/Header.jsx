@@ -35,7 +35,7 @@ export default function Header() {
                                     Nos produits
                                 </a>
                                 <a
-                                    href="/"
+                                    href="/nos-services"
                                     className="rounded-md px-2 py-2 font-lexend uppercase text-xs font-medium text-gray-300 hover:bg-light-purple hover:text-white"
                                 >
                                     Nos services
@@ -109,7 +109,7 @@ export default function Header() {
                         Nos produits
                     </a>
                     <a
-                        href="/"
+                        href="/nos-services"
                         className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-light-purple hover:text-white"
                     >
                         Nos services

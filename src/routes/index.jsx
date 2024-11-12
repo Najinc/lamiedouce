@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Switch } from "wouter";
 import Home from "../views/Home";
 import NotFound from "../views/NotFound";
+import Services from "../views/Services";
 import Produits from "../views/Produits";
 import Boulangerie from "../views/Boulangerie";
 import Pains from "../views/Pains";
@@ -18,6 +19,9 @@ export default function Router() {
             </Route>
             <Route path="/la-boulangerie">
                 <Boulangerie />
+            </Route>
+            <Route path="/nos-services">
+                <Services />
             </Route>
             <Route path="/nos-produits">
                 <Produits />
