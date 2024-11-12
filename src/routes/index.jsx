@@ -3,6 +3,7 @@ import { Route, Switch } from "wouter";
 import Home from "../views/Home";
 import NotFound from "../views/NotFound";
 import Produits from "../views/Produits";
+import Boulangerie from "../views/Boulangerie";
 import Pains from "../views/Pains";
 import Viennoiseries from "../views/Viennoiseries";
 import Patisseries from "../views/Patisseries";
@@ -14,6 +15,9 @@ export default function Router() {
         <Switch>
             <Route path="/">
                 <Home />
+            </Route>
+            <Route path="/la-boulangerie">
+                <Boulangerie />
             </Route>
             <Route path="/nos-produits">
                 <Produits />
